@@ -1,6 +1,9 @@
 #!/usr/bin/env sh
 
 # This bootstraps Puppet on Debian
+# run on command line with the following command as root
+# bash <(curl -s https://raw.githubusercontent.com/apollobit/puppet-bootstrap/master/debian.sh)
+
 set -e
 
 # Do the initial apt-get update
